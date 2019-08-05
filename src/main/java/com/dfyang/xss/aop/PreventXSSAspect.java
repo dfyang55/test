@@ -23,6 +23,7 @@ public class PreventXSSAspect {
     /**
      * 拦截controller路径下所有类的所有方法
      */
+
     @Pointcut("execution(* com.dfyang.xss.controller.*.*(..))")
     public void pointCut() {}
 
